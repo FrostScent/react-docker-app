@@ -1,7 +1,5 @@
 # Notice
 
-
-
 for test CI/CD with docker, travis-CI, AWS
 
 <br/>
