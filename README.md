@@ -1,14 +1,12 @@
 # Notice
 
-***
+
 
 for test CI/CD with docker, travis-CI, AWS
 
 <br/>
 
 # Detail
-
-***
 
 CI/CD 강의 자료 기반으로 만든 테스트 샘플.
 

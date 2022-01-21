@@ -6,15 +6,3 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8080:80"
-    
-deploy:
-  provider: elasticbeanstalk
-  region: "us-east-1"
-  app: "react-app"
-  env: "Reactapp-env"
-  bucket_name: "elasticbeanstalk-us-east-1-404986612989"
-  bucket_path: "react-app"
-  on:
-    branch: master
-
-
