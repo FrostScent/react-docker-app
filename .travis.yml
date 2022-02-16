@@ -7,7 +7,7 @@ services:
 
 before_install:
   - echo "Start Creating an image with dockerfile"
-  - docker build -t frostscent/react-app -f dockerfile .
+  - docker build -t frostscent/react-app -f Dockerfile .
 
 script:
   - docker run -e CI=true frostscent/react-app npm run test -- --coverage
