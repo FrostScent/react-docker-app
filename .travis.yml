@@ -17,10 +17,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-1"
+  region: "ap-northeast-2"
   app: "react-app"
   env: "Reactapp-env"
-  bucket_name: "elasticbeanstalk-us-east-1-404986612989"
+  bucket_name: "elasticbeanstalk-ap-northeast-2-404986612989"
   bucket_path: "react-app"
   on:
     branch: master
